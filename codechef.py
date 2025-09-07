@@ -8,4 +8,20 @@ How many customers can Chef serve in Y minutes if each customer orders exactly 1
 a,b=map(int,input().split())
 
 c=a*b
+
 print(c)
+
+
+
+"""
+Positive and Negative
+Write a program to check whether a number given as user input is positive, negative, or zero.
+
+"""
+a=int(input())
+if(a>0):
+    print("Positive")
+elif(a<0):
+    print("Negative")
+else:
+    print("Zero")
