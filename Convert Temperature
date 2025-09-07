@@ -1,0 +1,6 @@
+#Convert Temperature
+
+temperature=25.5
+k=(273+25.5)
+print("Celsius-",temperature)
+print("Kelvin-",k)
