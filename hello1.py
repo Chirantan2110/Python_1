@@ -14,3 +14,7 @@ print(2,"-",2**2)
 print(3,"-",3**2)
 print(4,"-",4**2)
 print(5,"-",5**2)
+#Divide Two Variables
+x=20
+y=6
+print(x//y)
