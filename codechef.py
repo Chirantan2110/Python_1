@@ -68,6 +68,21 @@ while(i<=num):
     print(i**2,end=" ")
     i=i+1
 
+"""
+Print factorial
+Write a program that uses a while loop to find the factorial of a given number.
+"""
+n=int(input())
+fact=1
+i=1
+while(i<=n):
+    fact=fact*i
+    i=i+1
+print(fact)  
+
+
+
+
 
 
 
