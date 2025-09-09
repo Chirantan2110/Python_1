@@ -58,6 +58,17 @@ else:
     print("No")
 
 
+"""
+Print Squares
+Write a program that utilizes a while loop to print the squares of numbers from 1 to N.
+"""
+num = int(input())
+i=1
+while(i<=num):
+    print(i**2,end=" ")
+    i=i+1
+
+
 
 
 
