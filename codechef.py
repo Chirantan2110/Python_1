@@ -79,6 +79,27 @@ while(i<=n):
 print(fact)  
 #EOC
 
+"""
+Count Vowels
+Write a program that uses a while loop to find no. of vowels in given input string of lowercase latin letters.
+
+Note: Vowels in lowercase latin letters are: a, e, i, o and u.
+
+"""
+str1=input()
+s=str1.lower()
+#print(s)
+f1=s.count("a")
+f2=s.count("e")
+f3=s.count("i")
+f4=s.count("o")
+f5=s.count("u")
+v=f1+f2+f3+f4+f5
+print(v)
+
+
+
+
 
 
 
