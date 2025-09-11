@@ -86,6 +86,7 @@ Write a program that uses a while loop to find no. of vowels in given input stri
 Note: Vowels in lowercase latin letters are: a, e, i, o and u.
 
 """
+#code-
 str1=input()
 s=str1.lower()
 #print(s)
@@ -96,6 +97,21 @@ f4=s.count("o")
 f5=s.count("u")
 v=f1+f2+f3+f4+f5
 print(v)
+#EOC
+"""
+Water Consumption
+Recently, Chef visited his doctor. The doctor advised Chef to drink at least 2000 ml of water each day.Chef drank X ml of water today. Determine if Chef followed the doctor's advice or not.
+"""
+#CODE-
+t = int(input())
+for i in range(0,t):
+    x =  int(input())
+    if(x>=2000):
+        print("Yes")
+    else:
+        print("No")
+
+#EOF
 
 
 
