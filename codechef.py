@@ -12,6 +12,16 @@ c=a*b
 print(c)
 #EOC
 """
+How to accept multiple integers on separate lines
+"""
+#CODE-
+A, B = map(int,input().split())
+C, D, E = map(int, input().split())
+F, G, H, I = map(int,input().split())
+print(A, B, C, D, E, F, G, H, I)
+
+#EOC
+"""
 Positive and Negative
 Write a program to check whether a number given as user input is positive, negative, or zero.
 """
@@ -123,16 +133,8 @@ def sum3(nums):
     sum+=i
   return sum  
     #EOC
-"""
-How to accept multiple integers on separate lines
-"""
-#CODE-
-A, B = map(int,input().split())
-C, D, E = map(int, input().split())
-F, G, H, I = map(int,input().split())
-print(A, B, C, D, E, F, G, H, I)
 
-#EOC
+
 
 
 
