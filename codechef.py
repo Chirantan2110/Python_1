@@ -135,6 +135,24 @@ def sum3(nums):
     #EOC
 
 
+"""Write a program that takes three space separated numbers as input and prints:
+
+"Increasing" if the numbers are in strictly increasing order,
+"Decreasing" if they are in strictly decreasing order,
+and "Neither" otherwise."""
+
+#code-
+a,b,c=map(int,input().split())
+if(a>b and b>c):
+    print("Decreasing")
+elif(a<b and b<c):
+    print("Increasing")
+else:
+    print("Neither")
+    #EOC
+
+
+
 
 
 
